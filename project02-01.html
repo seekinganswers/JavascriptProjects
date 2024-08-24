@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 2
+      Hands-on Project 2-1
+
+      Author: Dorothy Hill, May 29, 2024, IST239-W01, Hands-on Project 02-01
+
+      In Hands-on Exercise 02-01 we are incorporating a js file into the 
+	  HTML file using using JavaScript and a js file. The js file uses 
+	  calculations for user input for either Celsius or Fahrenheit.
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 2-1</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="project02-01.js" defer></script> <!-- loads the js file project02-01-->
+</head>
+
+<body>
+   <header>
+      <h1>Hands-on Project 2-1</h1>
+   </header>
+
+   <article>
+      <h2>Fahrenheit (&#176; F) to Celsius (&#176; C) converter</h2>
+      <form>
+         <div>
+            <h3>Temp in &#176; F</h3>
+            <input type="number" id="fValue" value="32" />
+         </div>
+         <div id="arrow">&harr;</div>
+         <div>
+            <h3>Temp in &#176; C</h3>
+            <input type="number" id="cValue" value="0" />            
+         </div>
+     </form>
+     <footer>
+        Enter a Fahrenheit or Celsius temperature in either input box and press Tab to convert.
+     </footer>
+   </article>
+</body>
+</html>
